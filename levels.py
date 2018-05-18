@@ -1,0 +1,173 @@
+def set_level(level_select):
+    if level_select == 1:
+
+        level = [
+            "                    ",
+            "                   W",
+            "             W   2  ",
+            "          PPPW      ",
+            "      1      W      ",
+            "    PPWWWWWWWW      ",
+            "                    ",
+            "      H   1  1      ",
+            "    PPWW WWWWWWW   W",
+            "           W W W PP ",
+            " PP1     W    M     ",
+            "W WWWWWWW WWWWWWWPPW",
+            "                   W",
+            "                W W ",
+            "              W     ",
+            "            W       ",
+            "    M               ",
+            "  PPWWW  1          ",
+            "         W      O   ",
+            "            H       ",
+        ]
+
+    elif level_select == 2:
+
+        level = [
+            "             1      ",
+            "                   W",
+            "             W      ",
+            "           W        ",
+            "             W      ",
+            "    W      W        ",
+            "                    ",
+            "    H     1  1      ",
+            "    PPWW WWWWWWW   W",
+            "O          W W W PP ",
+            " PP1  M             ",
+            "W WWWWWWWPWWWWWWWPPW",
+            "                1  W",
+            "         W      W W ",
+            "    W               ",
+            "          WWW       ",
+            "                    ",
+            "WWWWWWW  1          ",
+            "         W          ",
+            "H                   ",
+        ]
+
+    elif level_select == 3:
+
+        level = [
+            "                    ",
+            "                  OW",
+            "             W   1  ",
+            "                WWW ",
+            "      2             ",
+            "    W   W           ",
+            "                    ",
+            "          2  2      ",
+            "         W          P",
+            "           W W W    ",
+            "              M     ",
+            "W     W W     WW   W",
+            "        W       1  W",
+            "                W W ",
+            "                    ",
+            "        WWWWW       ",
+            "       W   W        ",
+            "       W 1 W        ",
+            "       W W W  W     ",
+            "H     WW   D        ",
+        ]
+
+    elif level_select == 4:
+        level = [
+            "                    ",
+            "                   W",
+            "             W  1   ",
+            "                WWW ",
+            "      2             ",
+            "        W           ",
+            "                    ",
+            "                  2 ",
+            "     2   W         P",
+            "               W    ",
+            "H                   ",
+            "W     W W     WW   W",
+            "        WW         W",
+            " 2                  ",
+            "           W        ",
+            "                 2  ",
+            "    W            O  ",
+            "           WW       ",
+            "       W      W  W  ",
+            "       W            ",
+        ]
+
+    elif level_select == 5:
+        level = [
+            "         O          ",
+            "                    ",
+            "         W      W1W ",
+            " 2             WWWW ",
+            "                    ",
+            "         W         1",
+            "                    ",
+            "                    ",
+            "     2   W          ",
+            "        W           ",
+            "M             M     ",
+            "W           WWWW   W",
+            "                   W",
+            "         W          ",
+            "WWWWWW      H       ",
+            "2 W         W       ",
+            "  W                 ",
+            "  W           WW    ",
+            "  W          W   W  ",
+            "  D         W  1   W",
+        ]
+
+    elif level_select == 6:
+        level = [
+            "                    ",
+            "                    ",
+            " M M           M M  ",
+            "DDDDDDDDDDDDDDDDDDDD",
+            "                    ",
+            "                    ",
+            "                    ",
+            "                    ",
+            "DDDDDDDDDDDDDDDDDDDD",
+            "  W                 ",
+            "  WWWWWWWWW         ",
+            " M M      WWWWWWWWW ",
+            "WWWWWWWWW      1  W ",
+            "1       WWWWWWWWW W1",
+            "WDWWWWW   1       WW",
+            "      WWWWWWWWWWWWW ",
+            "WWWWW            1  ",
+            "O   WWWWWWWWWWWWWWW ",
+            "            1       ",
+            "WWWWWWWWWWWWWWWWWWWW",
+        ]
+
+    elif level_select == 7:
+        level = [
+            "                    ",
+            "                    ",
+            "                    ",
+            "                    ",
+            "                    ",
+            "                    ",
+            "                    ",
+            "                    ",
+            "                    ",
+            "                    ",
+            "                    ",
+            "                    ",
+            "                    ",
+            "                    ",
+            "                    ",
+            "            W    2  ",
+            "        W   W       ",
+            "            D       ",
+            "     W      W       ",
+            "            W      1",
+        ]
+
+    return level
